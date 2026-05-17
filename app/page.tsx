@@ -144,25 +144,23 @@ export default function UploadPage() {
           <h2 className="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-3">
             Bundled decks
           </h2>
-          <div className="flex flex-col gap-2">
             {decks.map((deck) => (
-                <div className="gap-2">
+                <span className="gap-2">
                   <button
                     onClick={() => handleStudyDeck(deck)}
                     disabled={loadingDeck === deck.id}
-                    className="py-2.5 px-4 bg-blue-500 text-white rounded-lg font-semibold text-sm min-h-[44px] active:bg-blue-600 transition-colors disabled:opacity-60"
+                    className="py-2.5 px-4 m-2 bg-blue-500 text-white rounded-lg font-semibold text-sm min-h-[44px] active:bg-blue-600 transition-colors disabled:opacity-60"
                   >
                     {loadingDeck === deck.id ? "Loading..." : deck.name}
                   </button>
                   <button
                     onClick={() => router.push(`/decks/${deck.id}/table`)}
-                    className="py-2.5 px-4 bg-zinc-100 text-zinc-700 rounded-lg font-medium text-sm min-h-[44px] active:bg-zinc-200 transition-colors"
+                    className="py-2.5 px-4 m-2 bg-zinc-100 text-zinc-700 rounded-lg font-medium text-sm min-h-[44px] active:bg-zinc-200 transition-colors border border-zinc-300"
                   >
                     {deck.name}
                   </button>
-                </div>
+                </span>
             ))}
-          </div>
         </div>
       )}
 
