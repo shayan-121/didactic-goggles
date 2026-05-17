@@ -2,8 +2,15 @@
 
 import { useState, useCallback, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { RawCard } from "@/lib/types";
-import { loadProgress, mergeCards, saveProgress, saveMeta, loadMeta } from "@/lib/storage";
+import { RawCard, DeckManifestEntry } from "@/lib/types";
+import {
+  loadProgress,
+  mergeCards,
+  saveProgress,
+  saveMeta,
+  loadMeta,
+  saveActiveDeck,
+} from "@/lib/storage";
 
 export default function UploadPage() {
   const router = useRouter();
@@ -14,6 +21,8 @@ export default function UploadPage() {
   const [hasExisting, setHasExisting] = useState(false);
   const [existingCount, setExistingCount] = useState(0);
   const [lastLoaded, setLastLoaded] = useState<string>("");
+  const [decks, setDecks] = useState<DeckManifestEntry[]>([]);
+  const [loadingDeck, setLoadingDeck] = useState<string | null>(null);
 
   useEffect(() => {
     const meta = loadMeta();
@@ -25,6 +34,11 @@ export default function UploadPage() {
       const ago = timeAgo(new Date(meta.loadedAt));
       setLastLoaded(ago);
     }
+
+    fetch("/decks/index.json")
+      .then((res) => res.json())
+      .then((data: DeckManifestEntry[]) => setDecks(data))
+      .catch(() => {});
   }, []);
 
   function timeAgo(date: Date): string {
@@ -50,6 +64,32 @@ export default function UploadPage() {
     );
   }
 
+  const handleStudyDeck = useCallback(
+    async (deck: DeckManifestEntry) => {
+      setLoadingDeck(deck.id);
+      setError(null);
+      try {
+        const res = await fetch(`/decks/${deck.file}`);
+        const data: RawCard[] = await res.json();
+        if (!validateCards(data)) {
+          setError("Invalid deck format.");
+          setLoadingDeck(null);
+          return;
+        }
+        const existing = loadProgress(deck.id);
+        const merged = mergeCards(data, existing);
+        saveProgress(merged, deck.id);
+        saveActiveDeck({ id: deck.id, name: deck.name });
+        saveMeta({ loadedAt: new Date().toISOString(), totalCards: data.length });
+        router.push("/dashboard");
+      } catch {
+        setError("Failed to load deck.");
+        setLoadingDeck(null);
+      }
+    },
+    [router]
+  );
+
   const handleFile = useCallback((f: File) => {
     setError(null);
     if (!f.name.endsWith(".json")) {
@@ -71,9 +111,10 @@ export default function UploadPage() {
           );
           return;
         }
-        const existing = loadProgress();
+        const existing = loadProgress("custom");
         const merged = mergeCards(data, existing);
-        saveProgress(merged);
+        saveProgress(merged, "custom");
+        saveActiveDeck({ id: "custom", name: "Custom deck" });
         saveMeta({
           loadedAt: new Date().toISOString(),
           totalCards: data.length,
@@ -91,13 +132,50 @@ export default function UploadPage() {
   }, [router]);
 
   return (
-    <div className="flex flex-1 flex-col items-center justify-center px-6 max-w-md mx-auto w-full">
+    <div className="flex flex-1 flex-col items-center px-6 max-w-md mx-auto w-full py-10">
       <div className="w-full text-center mb-8">
         <h1 className="text-3xl font-bold text-zinc-900 mb-2">Flashcards</h1>
-        <p className="text-zinc-500">Upload a JSON file to get started</p>
+        <p className="text-zinc-500">Choose a deck or upload your own</p>
       </div>
 
-      {/* Drop zone */}
+      {/* Section A — Bundled decks */}
+      {decks.length > 0 && (
+        <div className="w-full mb-6">
+          <h2 className="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-3">
+            Bundled decks
+          </h2>
+          <div className="flex flex-col gap-2">
+            {decks.map((deck) => (
+                <div className="gap-2">
+                  <button
+                    onClick={() => handleStudyDeck(deck)}
+                    disabled={loadingDeck === deck.id}
+                    className="py-2.5 px-4 bg-blue-500 text-white rounded-lg font-semibold text-sm min-h-[44px] active:bg-blue-600 transition-colors disabled:opacity-60"
+                  >
+                    {loadingDeck === deck.id ? "Loading..." : deck.name}
+                  </button>
+                  <button
+                    onClick={() => router.push(`/decks/${deck.id}/table`)}
+                    className="py-2.5 px-4 bg-zinc-100 text-zinc-700 rounded-lg font-medium text-sm min-h-[44px] active:bg-zinc-200 transition-colors"
+                  >
+                    {deck.name}
+                  </button>
+                </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Divider */}
+      <div className="w-full flex items-center gap-4 my-2 mb-6">
+        <div className="flex-1 h-px bg-zinc-200" />
+        <span className="text-xs text-zinc-400 uppercase tracking-wider whitespace-nowrap">
+          or upload your own
+        </span>
+        <div className="flex-1 h-px bg-zinc-200" />
+      </div>
+
+      {/* Section B — Custom upload (existing flow) */}
       <div
         className={`w-full border-2 border-dashed rounded-2xl p-10 text-center transition-colors cursor-pointer ${
           dragging

@@ -2,8 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { CardProgress } from "@/lib/types";
-import { loadProgress } from "@/lib/storage";
+import { ActiveDeck, CardProgress } from "@/lib/types";
+import { loadProgress, loadActiveDeck } from "@/lib/storage";
 import { isDueToday, isMastered, isUnseen } from "@/lib/srs";
 import StatCard from "@/components/StatCard";
 import NavBar from "@/components/NavBar";
@@ -11,9 +11,13 @@ import NavBar from "@/components/NavBar";
 export default function DashboardPage() {
   const router = useRouter();
   const [cards, setCards] = useState<CardProgress[]>([]);
+  const [activeDeck, setActiveDeck] = useState<ActiveDeck | null>(null);
 
   useEffect(() => {
-    const progress = loadProgress();
+    const deck = loadActiveDeck();
+    setActiveDeck(deck);
+    const deckId = deck?.id;
+    const progress = loadProgress(deckId);
     const list = Object.values(progress);
     if (list.length === 0) {
       router.replace("/");
@@ -65,7 +69,10 @@ export default function DashboardPage() {
     <div className="flex flex-col flex-1 max-w-md mx-auto w-full px-4 pt-8 pb-24">
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-zinc-900">Your deck</h1>
-        <p className="text-zinc-500 text-sm">{cards.length} cards total</p>
+        <p className="text-zinc-500 text-sm">
+          {activeDeck?.name ? `${activeDeck.name} \u00b7 ` : ""}
+          {cards.length} cards
+        </p>
       </div>
 
       {/* Stats row */}

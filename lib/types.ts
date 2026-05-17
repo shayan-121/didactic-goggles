@@ -23,3 +23,16 @@ export interface Settings {
   studyDirection: "front-back" | "back-front" | "random";
   sessionSize: number; // 10, 20, 50, or 0 for all
 }
+
+export interface ActiveDeck {
+  id: string;
+  name: string;
+}
+
+export interface DeckManifestEntry {
+  id: string;
+  name: string;
+  description: string;
+  file: string;
+  table: string;
+}

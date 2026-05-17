@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { CardProgress } from "@/lib/types";
-import { loadProgress, saveProgress, loadSettings } from "@/lib/storage";
+import { loadProgress, saveProgress, loadSettings, loadActiveDeck } from "@/lib/storage";
 import { isDueToday, updateSRS } from "@/lib/srs";
 import FlashCard from "@/components/FlashCard";
 import ProgressBar from "@/components/ProgressBar";
@@ -38,9 +38,12 @@ export default function SRSPage() {
   const [direction, setDirection] = useState("front-back");
   const touchStart = useRef<{ x: number; y: number } | null>(null);
   const progressRef = useRef<Record<string, CardProgress>>({});
+  const deckIdRef = useRef<string | undefined>(undefined);
 
   useEffect(() => {
-    const progress = loadProgress();
+    const deck = loadActiveDeck();
+    deckIdRef.current = deck?.id;
+    const progress = loadProgress(deck?.id);
     progressRef.current = progress;
     const settings = loadSettings();
     setDirection(settings.studyDirection);
@@ -69,7 +72,7 @@ export default function SRSPage() {
       const card = queue[index];
       const updated = updateSRS(card, quality);
       progressRef.current[card.key] = updated;
-      saveProgress(progressRef.current);
+      saveProgress(progressRef.current, deckIdRef.current);
 
       if (index + 1 >= queue.length) {
         setDone(true);

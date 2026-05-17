@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { CardProgress } from "@/lib/types";
-import { loadProgress, saveProgress, loadSettings } from "@/lib/storage";
+import { loadProgress, saveProgress, loadSettings, loadActiveDeck } from "@/lib/storage";
 import { isDueToday, isMastered, isUnseen, updateSRS } from "@/lib/srs";
 import ProgressBar from "@/components/ProgressBar";
 
@@ -47,10 +47,13 @@ export default function TypingPage() {
   const [skipped, setSkipped] = useState(0);
   const [direction, setDirection] = useState("front-back");
   const progressRef = useRef<Record<string, CardProgress>>({});
+  const deckIdRef = useRef<string | undefined>(undefined);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    const progress = loadProgress();
+    const deck = loadActiveDeck();
+    deckIdRef.current = deck?.id;
+    const progress = loadProgress(deck?.id);
     progressRef.current = progress;
     const list = Object.values(progress);
     if (list.length === 0) {
@@ -103,7 +106,7 @@ export default function TypingPage() {
       // Auto-update SRS as correct (q=3)
       const updated = updateSRS(card, 3);
       progressRef.current[card.key] = updated;
-      saveProgress(progressRef.current);
+      saveProgress(progressRef.current, deckIdRef.current);
     } else {
       setCheckState("wrong");
     }
@@ -114,7 +117,7 @@ export default function TypingPage() {
       const card = queue[index];
       const updated = updateSRS(card, wasCorrect ? 3 : 0);
       progressRef.current[card.key] = updated;
-      saveProgress(progressRef.current);
+      saveProgress(progressRef.current, deckIdRef.current);
       if (wasCorrect) setCorrect((c) => c + 1);
       else setIncorrect((c) => c + 1);
       advance();

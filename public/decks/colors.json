@@ -1,0 +1,12 @@
+[
+  { "front": "rood", "back": "red" },
+  { "front": "blauw", "back": "blue" },
+  { "front": "geel", "back": "yellow" },
+  { "front": "groen", "back": "green" },
+  { "front": "oranje", "back": "orange" },
+  { "front": "paars", "back": "purple" },
+  { "front": "roze", "back": "pink" },
+  { "front": "wit", "back": "white" },
+  { "front": "zwart", "back": "black" },
+  { "front": "bruin", "back": "brown" }
+]

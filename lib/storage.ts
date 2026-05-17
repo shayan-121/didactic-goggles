@@ -1,9 +1,10 @@
-import { CardProgress, DeckMeta, RawCard, Settings } from "./types";
+import { ActiveDeck, CardProgress, DeckMeta, RawCard, Settings } from "./types";
 import { cardKey } from "./cardKey";
 
 const PROGRESS_KEY = "fc_progress";
 const META_KEY = "fc_meta";
 const SETTINGS_KEY = "fc_settings";
+const ACTIVE_DECK_KEY = "fc_active_deck";
 
 function safeGetItem(key: string): string | null {
   try {
@@ -21,8 +22,12 @@ function safeSetItem(key: string, value: string): void {
   }
 }
 
-export function loadProgress(): Record<string, CardProgress> {
-  const raw = safeGetItem(PROGRESS_KEY);
+function progressKey(deckId?: string): string {
+  return deckId ? `fc_progress_${deckId}` : PROGRESS_KEY;
+}
+
+export function loadProgress(deckId?: string): Record<string, CardProgress> {
+  const raw = safeGetItem(progressKey(deckId));
   if (!raw) return {};
   try {
     return JSON.parse(raw);
@@ -31,8 +36,8 @@ export function loadProgress(): Record<string, CardProgress> {
   }
 }
 
-export function saveProgress(data: Record<string, CardProgress>): void {
-  safeSetItem(PROGRESS_KEY, JSON.stringify(data));
+export function saveProgress(data: Record<string, CardProgress>, deckId?: string): void {
+  safeSetItem(progressKey(deckId), JSON.stringify(data));
 }
 
 export function mergeCards(
@@ -100,4 +105,18 @@ export function clearAllProgress(): void {
   } catch {
     // ignore
   }
+}
+
+export function loadActiveDeck(): ActiveDeck | null {
+  const raw = safeGetItem(ACTIVE_DECK_KEY);
+  if (!raw) return null;
+  try {
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+export function saveActiveDeck(deck: ActiveDeck): void {
+  safeSetItem(ACTIVE_DECK_KEY, JSON.stringify(deck));
 }

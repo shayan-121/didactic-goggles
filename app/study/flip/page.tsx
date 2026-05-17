@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { CardProgress } from "@/lib/types";
-import { loadProgress, loadSettings } from "@/lib/storage";
+import { loadProgress, loadSettings, loadActiveDeck } from "@/lib/storage";
 import { isDueToday, isMastered, isUnseen } from "@/lib/srs";
 import FlashCard from "@/components/FlashCard";
 import ProgressBar from "@/components/ProgressBar";
@@ -45,7 +45,8 @@ export default function FlipPage() {
   const [direction, setDirection] = useState("front-back");
 
   useEffect(() => {
-    const progress = loadProgress();
+    const deck = loadActiveDeck();
+    const progress = loadProgress(deck?.id);
     const list = Object.values(progress);
     if (list.length === 0) {
       router.replace("/");

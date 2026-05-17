@@ -1,0 +1,44 @@
+[
+  {
+    "id": "numbers",
+    "name": "Numbers 1\u201330",
+    "description": "Dutch\u2013English numbers",
+    "file": "numbers.json",
+    "table": "numbers.md"
+  },
+  {
+    "id": "colors",
+    "name": "Colors",
+    "description": "Dutch\u2013English colors",
+    "file": "colors.json",
+    "table": "colors.md"
+  },
+  {
+    "id": "food",
+    "name": "Food & Drink",
+    "description": "Dutch\u2013English food and drink",
+    "file": "food.json",
+    "table": "food.md"
+  },
+  {
+    "id": "household",
+    "name": "Household",
+    "description": "Dutch\u2013English household and rooms",
+    "file": "household.json",
+    "table": "household.md"
+  },
+  {
+    "id": "relatives",
+    "name": "Relatives",
+    "description": "Dutch\u2013English family members",
+    "file": "relatives.json",
+    "table": "relatives.md"
+  },
+  {
+    "id": "weather",
+    "name": "Weather",
+    "description": "Dutch\u2013English weather expressions",
+    "file": "weather.json",
+    "table": "weather.md"
+  }
+]

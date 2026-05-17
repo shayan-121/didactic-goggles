@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { CardProgress } from "@/lib/types";
-import { loadProgress } from "@/lib/storage";
+import { loadProgress, loadActiveDeck } from "@/lib/storage";
 import { isDueToday, isMastered, isUnseen, isLearning } from "@/lib/srs";
 import NavBar from "@/components/NavBar";
 
@@ -22,7 +22,8 @@ export default function StatsPage() {
   const [cards, setCards] = useState<CardProgress[]>([]);
 
   useEffect(() => {
-    const progress = loadProgress();
+    const deck = loadActiveDeck();
+    const progress = loadProgress(deck?.id);
     const list = Object.values(progress);
     if (list.length === 0) {
       router.replace("/");
