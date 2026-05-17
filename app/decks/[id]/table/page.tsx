@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { DeckManifestEntry } from "@/lib/types";
 
 export default function TablePage() {
@@ -70,6 +71,7 @@ export default function TablePage() {
       <div className="overflow-x-auto -mx-4 px-4">
         <div className="prose prose-zinc max-w-none table-wrapper">
           <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
             components={{
               table: ({ children }) => (
                 <table className="w-full border-collapse text-sm">
