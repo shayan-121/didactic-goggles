@@ -40,5 +40,26 @@
     "description": "Dutch\u2013English weather expressions",
     "file": "weather.json",
     "table": "weather.md"
+  },
+  {
+    "id": "cafe",
+    "name": "Cafe",
+    "description": "Dutch\u2013English cafe expressions",
+    "file": "cafe.json",
+    "table": "cafe.md"
+  },
+  {
+    "id": "restaurant",
+    "name": "Restaurant",
+    "description": "Dutch\u2013English restaurant expressions",
+    "file": "restaurant.json",
+    "table": "restaurant.md"
+  },
+  {
+    "id": "phone-call",
+    "name": "Phone call",
+    "description": "Dutch\u2013English phone call expressions",
+    "file": "phone-call.json",
+    "table": "phone-call.md"
   }
 ]

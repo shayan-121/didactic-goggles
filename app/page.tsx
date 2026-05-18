@@ -25,6 +25,15 @@ export default function UploadPage() {
   const [loadingDeck, setLoadingDeck] = useState<string | null>(null);
 
   useEffect(() => {
+    if (!localStorage.getItem("dutch-tip-shown")) {
+      alert(
+        'You can inform a dutch person that "Ik wil graag in het Nederlands oefenen" (I\'d like to practise in Dutch) when they switch to english with you.'
+      );
+      localStorage.setItem("dutch-tip-shown", "1");
+    }
+  }, []);
+
+  useEffect(() => {
     const meta = loadMeta();
     const progress = loadProgress();
     const count = Object.keys(progress).length;
@@ -152,12 +161,6 @@ export default function UploadPage() {
                     className="py-2.5 px-4 m-2 bg-blue-500 text-white rounded-lg font-semibold text-sm min-h-[44px] active:bg-blue-600 transition-colors disabled:opacity-60"
                   >
                     {loadingDeck === deck.id ? "Loading..." : deck.name}
-                  </button>
-                  <button
-                    onClick={() => router.push(`/decks/${deck.id}/table`)}
-                    className="py-2.5 px-4 m-2 bg-zinc-100 text-zinc-700 rounded-lg font-medium text-sm min-h-[44px] active:bg-zinc-200 transition-colors border border-zinc-300"
-                  >
-                    {deck.name}
                   </button>
                 </span>
             ))}

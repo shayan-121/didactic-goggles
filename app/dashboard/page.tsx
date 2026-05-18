@@ -111,6 +111,27 @@ export default function DashboardPage() {
           </button>
         ))}
       </div>
+      <button
+        onClick={() => router.push(`/decks/${activeDeck?.id}/table`)}
+        className="flex items-center gap-4 bg-white rounded-xl border border-zinc-200 p-4 min-h-[44px] active:bg-zinc-50 transition-colors text-left w-full mt-2"
+      >
+        <svg className="w-6 h-6 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18M3 6h18M3 14h18M3 18h18" />
+        </svg>
+        <div className="flex-1 min-w-0">
+          <p className="font-semibold text-zinc-900">Table</p>
+          <p className="text-sm text-zinc-500 truncate">View all cards in a table</p>
+        </div>
+        <svg
+          className="w-5 h-5 text-zinc-400 flex-shrink-0"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
 
       <NavBar />
     </div>
