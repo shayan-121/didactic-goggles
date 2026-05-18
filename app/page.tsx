@@ -149,7 +149,7 @@ export default function UploadPage() {
             Bundled decks
           </h2>
             {decks.map((deck) => (
-                <span className="gap-2">
+                <span key={deck.id} className="gap-2">
                   <button
                     onClick={() => handleStudyDeck(deck)}
                     disabled={loadingDeck === deck.id}

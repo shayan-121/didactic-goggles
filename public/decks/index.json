@@ -1,42 +1,42 @@
 [
   {
     "id": "basic-100",
-    "name": "Basic 1–100",
+    "name": "Basic 100",
     "description": "Dutch–English basic vocabulary (1–100)",
     "file": "basic-100.json",
     "table": "basic-100.md"
   },
   {
     "id": "basic-200",
-    "name": "Basic 101–200",
+    "name": "Basic 200",
     "description": "Dutch–English basic vocabulary (101–200)",
     "file": "basic-200.json",
     "table": "basic-200.md"
   },
   {
     "id": "basic-300",
-    "name": "Basic 201–300",
+    "name": "Basic 300",
     "description": "Dutch–English basic vocabulary (201–300)",
     "file": "basic-300.json",
     "table": "basic-300.md"
   },
   {
     "id": "basic-400",
-    "name": "Basic 301–400",
+    "name": "Basic 400",
     "description": "Dutch–English basic vocabulary (301–400)",
     "file": "basic-400.json",
     "table": "basic-400.md"
   },
   {
     "id": "basic-500",
-    "name": "Basic 401–500",
+    "name": "Basic 500",
     "description": "Dutch–English basic vocabulary (401–500)",
     "file": "basic-500.json",
     "table": "basic-500.md"
   },
   {
     "id": "basic-526",
-    "name": "Basic 501–526",
+    "name": "Basic 600",
     "description": "Dutch–English basic vocabulary (501–526)",
     "file": "basic-526.json",
     "table": "basic-526.md"
