@@ -25,15 +25,6 @@ export default function UploadPage() {
   const [loadingDeck, setLoadingDeck] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!localStorage.getItem("dutch-tip-shown")) {
-      alert(
-        'You can inform a dutch person that "Ik wil graag in het Nederlands oefenen" (I\'d like to practise in Dutch) when they switch to english with you.'
-      );
-      localStorage.setItem("dutch-tip-shown", "1");
-    }
-  }, []);
-
-  useEffect(() => {
     const meta = loadMeta();
     const progress = loadProgress();
     const count = Object.keys(progress).length;
@@ -146,7 +137,11 @@ export default function UploadPage() {
         <h1 className="text-3xl font-bold text-zinc-900 mb-2">Flashcards</h1>
         <p className="text-zinc-500">Choose a deck or upload your own</p>
       </div>
-
+      <div className="w-full mb-6 bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 flex items-start gap-3">
+        <p className="text-amber-800 text-sm flex-1">
+          You can inform a Dutch person that <b>&quot;Ik wil graag in het Nederlands oefenen&quot;</b> &nbsp;(I&apos;d like to practise in Dutch) when they switch to English with you.
+        </p>
+      </div>
       {/* Section A — Bundled decks */}
       {decks.length > 0 && (
         <div className="w-full mb-6">
