@@ -1,0 +1,402 @@
+[
+  {
+    "front": "de bril",
+    "back": "the glasses"
+  },
+  {
+    "front": "de zonnebril",
+    "back": "the sunglasses"
+  },
+  {
+    "front": "de neus",
+    "back": "the nose"
+  },
+  {
+    "front": "het haar",
+    "back": "the hair"
+  },
+  {
+    "front": "de arm",
+    "back": "the arm"
+  },
+  {
+    "front": "de elleboog",
+    "back": "the elbow"
+  },
+  {
+    "front": "de hand",
+    "back": "the hand"
+  },
+  {
+    "front": "de vinger",
+    "back": "the finger"
+  },
+  {
+    "front": "het been",
+    "back": "the leg"
+  },
+  {
+    "front": "de knie",
+    "back": "the knee"
+  },
+  {
+    "front": "de voet",
+    "back": "the foot"
+  },
+  {
+    "front": "de teen",
+    "back": "the toe"
+  },
+  {
+    "front": "de rug",
+    "back": "the spine"
+  },
+  {
+    "front": "de buik",
+    "back": "the belly, the stomach"
+  },
+  {
+    "front": "de schouder",
+    "back": "the shoulder"
+  },
+  {
+    "front": "de kont",
+    "back": "the ass"
+  },
+  {
+    "front": "de borst",
+    "back": "the chest, the breast"
+  },
+  {
+    "front": "de baard",
+    "back": "the beard"
+  },
+  {
+    "front": "de snor",
+    "back": "the moustache"
+  },
+  {
+    "front": "het hart",
+    "back": "the heart"
+  },
+  {
+    "front": "de kleren",
+    "back": "the clothes"
+  },
+  {
+    "front": "de kleding",
+    "back": "the clothing"
+  },
+  {
+    "front": "de kledingwinkel",
+    "back": "the clothes shop"
+  },
+  {
+    "front": "de broek",
+    "back": "the pants"
+  },
+  {
+    "front": "de spijkerbroek",
+    "back": "the jeans"
+  },
+  {
+    "front": "de trui",
+    "back": "the sweater"
+  },
+  {
+    "front": "de jas",
+    "back": "the coat"
+  },
+  {
+    "front": "de rok",
+    "back": "the skirt"
+  },
+  {
+    "front": "de jurk",
+    "back": "the robe"
+  },
+  {
+    "front": "de sok",
+    "back": "the sock (short)"
+  },
+  {
+    "front": "de kous",
+    "back": "the sock (long)"
+  },
+  {
+    "front": "de schoen",
+    "back": "the shoe"
+  },
+  {
+    "front": "de klomp",
+    "back": "the wooden shoe"
+  },
+  {
+    "front": "de riem",
+    "back": "the belt"
+  },
+  {
+    "front": "het T-shirt",
+    "back": "the T-shirt"
+  },
+  {
+    "front": "het (onder)hemd",
+    "back": "the undershirt"
+  },
+  {
+    "front": "het overhemd",
+    "back": "the shirt"
+  },
+  {
+    "front": "de blouse",
+    "back": "the blouse, the shirt"
+  },
+  {
+    "front": "het pak",
+    "back": "the suit"
+  },
+  {
+    "front": "het, de colbert",
+    "back": "the suit jacket"
+  },
+  {
+    "front": "de stropdas",
+    "back": "the tie"
+  },
+  {
+    "front": "de strik",
+    "back": "the bow"
+  },
+  {
+    "front": "de pyjama",
+    "back": "the pyjamas"
+  },
+  {
+    "front": "de onderbroek",
+    "back": "the undershorts"
+  },
+  {
+    "front": "de bh",
+    "back": "the bra"
+  },
+  {
+    "front": "de hoed",
+    "back": "the hat"
+  },
+  {
+    "front": "de das",
+    "back": "the scarf"
+  },
+  {
+    "front": "doen",
+    "back": "to do"
+  },
+  {
+    "front": "beginnen",
+    "back": "to begin"
+  },
+  {
+    "front": "geloven",
+    "back": "to believe"
+  },
+  {
+    "front": "brengen",
+    "back": "to bring"
+  },
+  {
+    "front": "halen",
+    "back": "to pick up"
+  },
+  {
+    "front": "lenen",
+    "back": "to borrow"
+  },
+  {
+    "front": "bellen",
+    "back": "to call"
+  },
+  {
+    "front": "kunnen",
+    "back": "to can"
+  },
+  {
+    "front": "sluiten",
+    "back": "to close"
+  },
+  {
+    "front": "snijden",
+    "back": "to cut"
+  },
+  {
+    "front": "beslissen",
+    "back": "to decide"
+  },
+  {
+    "front": "vallen",
+    "back": "to fall"
+  },
+  {
+    "front": "voelen",
+    "back": "to feel, to touch"
+  },
+  {
+    "front": "volgen",
+    "back": "to follow"
+  },
+  {
+    "front": "gebeuren",
+    "back": "to happen"
+  },
+  {
+    "front": "iets",
+    "back": "something"
+  },
+  {
+    "front": "helpen",
+    "back": "to help"
+  },
+  {
+    "front": "houden",
+    "back": "to hold, to keep"
+  },
+  {
+    "front": "houden van",
+    "back": "to love"
+  },
+  {
+    "front": "kennen",
+    "back": "to know"
+  },
+  {
+    "front": "leuk vinden",
+    "back": "to like"
+  },
+  {
+    "front": "laten",
+    "back": "to leave"
+  },
+  {
+    "front": "verliezen",
+    "back": "to lose"
+  },
+  {
+    "front": "winnen",
+    "back": "to win"
+  },
+  {
+    "front": "maken",
+    "back": "to make"
+  },
+  {
+    "front": "solliciteren",
+    "back": "to apply for"
+  },
+  {
+    "front": "de sollicitatie",
+    "back": "the application"
+  },
+  {
+    "front": "de vacature",
+    "back": "the vacancy"
+  },
+  {
+    "front": "de advertentie",
+    "back": "the advertisement"
+  },
+  {
+    "front": "het werk",
+    "back": "the work"
+  },
+  {
+    "front": "de baan",
+    "back": "the job"
+  },
+  {
+    "front": "veranderen",
+    "back": "to change"
+  },
+  {
+    "front": "de brief",
+    "back": "the letter"
+  },
+  {
+    "front": "de sollicitatiebrief",
+    "back": "the application letter"
+  },
+  {
+    "front": "het cv (curriculum vitae)",
+    "back": "the resume"
+  },
+  {
+    "front": "de opleiding",
+    "back": "the education"
+  },
+  {
+    "front": "de ervaring",
+    "back": "the experience"
+  },
+  {
+    "front": "het gesprek",
+    "back": "the conversation, the interview"
+  },
+  {
+    "front": "het sollicitatiegesprek",
+    "back": "the job interview"
+  },
+  {
+    "front": "het bedrijf",
+    "back": "the company"
+  },
+  {
+    "front": "de zaak",
+    "back": "the company"
+  },
+  {
+    "front": "het salaris",
+    "back": "the salary"
+  },
+  {
+    "front": "bruto",
+    "back": "gross"
+  },
+  {
+    "front": "netto",
+    "back": "net"
+  },
+  {
+    "front": "de belasting",
+    "back": "the tax"
+  },
+  {
+    "front": "het vakantiegeld",
+    "back": "the vacation bonus"
+  },
+  {
+    "front": "de auto van de zaak",
+    "back": "the company car"
+  },
+  {
+    "front": "het pensioen",
+    "back": "the pension"
+  },
+  {
+    "front": "de reiskosten",
+    "back": "the travel expenses"
+  },
+  {
+    "front": "de vergoeding",
+    "back": "the compensation"
+  },
+  {
+    "front": "de reiskostenvergoeding",
+    "back": "the compensation for travel expenses"
+  },
+  {
+    "front": "de collega",
+    "back": "the colleague"
+  },
+  {
+    "front": "aannemen",
+    "back": "to hire"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "front": "zeggen",
+    "back": "to say"
+  },
+  {
+    "front": "denken",
+    "back": "to think"
+  },
+  {
+    "front": "werken",
+    "back": "to work"
+  },
+  {
+    "front": "wachten",
+    "back": "to wait"
+  },
+  {
+    "front": "groot",
+    "back": "big"
+  },
+  {
+    "front": "klein",
+    "back": "small"
+  },
+  {
+    "front": "lekker",
+    "back": "tasty"
+  },
+  {
+    "front": "vies",
+    "back": "dirty, disgusting"
+  },
+  {
+    "front": "schoon",
+    "back": "clean"
+  },
+  {
+    "front": "mooi",
+    "back": "beautiful"
+  },
+  {
+    "front": "de tulp",
+    "back": "the tulip"
+  },
+  {
+    "front": "lelijk",
+    "back": "ugly"
+  },
+  {
+    "front": "interessant",
+    "back": "interesting"
+  },
+  {
+    "front": "saai",
+    "back": "boring"
+  },
+  {
+    "front": "arm",
+    "back": "poor"
+  },
+  {
+    "front": "rijk",
+    "back": "rich"
+  },
+  {
+    "front": "donker",
+    "back": "dark"
+  },
+  {
+    "front": "licht",
+    "back": "light"
+  },
+  {
+    "front": "zwaar",
+    "back": "heavy"
+  },
+  {
+    "front": "hard",
+    "back": "hard, fast"
+  },
+  {
+    "front": "zacht",
+    "back": "soft, slow"
+  },
+  {
+    "front": "snel",
+    "back": "fast"
+  },
+  {
+    "front": "lief",
+    "back": "lovely, sweet"
+  },
+  {
+    "front": "stout",
+    "back": "naughty"
+  },
+  {
+    "front": "koud",
+    "back": "cold"
+  },
+  {
+    "front": "warm",
+    "back": "warm"
+  },
+  {
+    "front": "duur",
+    "back": "expensive"
+  },
+  {
+    "front": "goedkoop",
+    "back": "cheap"
+  },
+  {
+    "front": "hoog",
+    "back": "high, tall"
+  },
+  {
+    "front": "laag",
+    "back": "low"
+  },
+  {
+    "front": "week",
+    "back": "week"
+  },
+  {
+    "front": "de dagen van de week",
+    "back": "the days of the week"
+  },
+  {
+    "front": "welke dag (van de week)?",
+    "back": "which day of the week"
+  },
+  {
+    "front": "maandag",
+    "back": "Monday"
+  },
+  {
+    "front": "dinsdag",
+    "back": "Tuesday"
+  },
+  {
+    "front": "woensdag",
+    "back": "Wednesday"
+  },
+  {
+    "front": "donderdag",
+    "back": "Thursday"
+  },
+  {
+    "front": "vrijdag",
+    "back": "Friday"
+  },
+  {
+    "front": "zaterdag",
+    "back": "Saturday"
+  },
+  {
+    "front": "zondag",
+    "back": "Sunday"
+  },
+  {
+    "front": "de maand",
+    "back": "the month"
+  },
+  {
+    "front": "de maan",
+    "back": "the moon"
+  },
+  {
+    "front": "januari",
+    "back": "January"
+  },
+  {
+    "front": "februari",
+    "back": "February"
+  },
+  {
+    "front": "maart",
+    "back": "march"
+  },
+  {
+    "front": "april",
+    "back": "April"
+  },
+  {
+    "front": "mei",
+    "back": "may"
+  },
+  {
+    "front": "juni",
+    "back": "June"
+  },
+  {
+    "front": "juli",
+    "back": "July"
+  },
+  {
+    "front": "augustus",
+    "back": "august"
+  },
+  {
+    "front": "september",
+    "back": "September"
+  },
+  {
+    "front": "oktober",
+    "back": "October"
+  },
+  {
+    "front": "november",
+    "back": "November"
+  },
+  {
+    "front": "december",
+    "back": "December"
+  },
+  {
+    "front": "winter",
+    "back": "winter"
+  },
+  {
+    "front": "lente",
+    "back": "spring"
+  },
+  {
+    "front": "zomer",
+    "back": "summer"
+  },
+  {
+    "front": "herfst",
+    "back": "autumn"
+  },
+  {
+    "front": "met",
+    "back": "with"
+  },
+  {
+    "front": "van",
+    "back": "from"
+  },
+  {
+    "front": "naar",
+    "back": "to"
+  },
+  {
+    "front": "in",
+    "back": "in"
+  },
+  {
+    "front": "voor",
+    "back": "in front of"
+  },
+  {
+    "front": "achter",
+    "back": "behind"
+  },
+  {
+    "front": "naast",
+    "back": "next to"
+  },
+  {
+    "front": "beneden",
+    "back": "down, downstairs"
+  },
+  {
+    "front": "boven",
+    "back": "above, up, upstairs"
+  },
+  {
+    "front": "onder",
+    "back": "below"
+  },
+  {
+    "front": "op",
+    "back": "at, on top"
+  },
+  {
+    "front": "tussen",
+    "back": "between"
+  },
+  {
+    "front": "het midden",
+    "back": "the middle"
+  },
+  {
+    "front": "over",
+    "back": "about"
+  },
+  {
+    "front": "over",
+    "back": "over"
+  },
+  {
+    "front": "bij",
+    "back": "at, near"
+  },
+  {
+    "front": "binnen",
+    "back": "inside"
+  },
+  {
+    "front": "buiten",
+    "back": "outside"
+  },
+  {
+    "front": "tegen",
+    "back": "against"
+  },
+  {
+    "front": "rond",
+    "back": "around"
+  },
+  {
+    "front": "sinds",
+    "back": "since"
+  },
+  {
+    "front": "zonder",
+    "back": "without"
+  },
+  {
+    "front": "voor",
+    "back": "before"
+  },
+  {
+    "front": "na",
+    "back": "after"
+  },
+  {
+    "front": "om",
+    "back": "at"
+  },
+  {
+    "front": "hoe laat?",
+    "back": "what time?"
+  },
+  {
+    "front": "hoe laat is het?",
+    "back": "what time is it?"
+  },
+  {
+    "front": "de klok",
+    "back": "the clock"
+  },
+  {
+    "front": "het uur",
+    "back": "the hour"
+  },
+  {
+    "front": "twee uur",
+    "back": "two o'clock"
+  },
+  {
+    "front": "om tien uur",
+    "back": "at ten o'clock"
+  },
+  {
+    "front": "half vier",
+    "back": "half past three"
+  },
+  {
+    "front": "half een",
+    "back": "half past twelve"
+  },
+  {
+    "front": "het kwartier",
+    "back": "the quarter"
+  },
+  {
+    "front": "kwart over drie",
+    "back": "quarter past three"
+  },
+  {
+    "front": "kwart voor zeven",
+    "back": "quarter to seven"
+  },
+  {
+    "front": "de minuut",
+    "back": "the minute"
+  },
+  {
+    "front": "tien over zes",
+    "back": "ten past six"
+  },
+  {
+    "front": "vijf voor acht",
+    "back": "five to eight"
+  },
+  {
+    "front": "vijf voor half zeven",
+    "back": "twenty five past six"
+  },
+  {
+    "front": "vijf over half vier",
+    "back": "twenty five to four"
+  },
+  {
+    "front": "twintig voor vijf",
+    "back": "twenty to five"
+  }
+]

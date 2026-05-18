@@ -1,0 +1,402 @@
+[
+  {
+    "front": "hoe lang?",
+    "back": "how long?"
+  },
+  {
+    "front": "het duurt drie uur",
+    "back": "it takes three hours"
+  },
+  {
+    "front": "van twee uur tot vijf uur",
+    "back": "from two till five o'clock"
+  },
+  {
+    "front": "de nacht",
+    "back": "the night"
+  },
+  {
+    "front": "'s nachts",
+    "back": "at night"
+  },
+  {
+    "front": "de ochtend, de morgen",
+    "back": "the morning"
+  },
+  {
+    "front": "'s ochtends / 's morgens",
+    "back": "in the morning"
+  },
+  {
+    "front": "de middag",
+    "back": "the afternoon"
+  },
+  {
+    "front": "'s middags",
+    "back": "in the afternoon"
+  },
+  {
+    "front": "de avond",
+    "back": "the evening"
+  },
+  {
+    "front": "'s avonds",
+    "back": "in the evening"
+  },
+  {
+    "front": "kwart voor zeven 's ochtends",
+    "back": "quarter to seven am"
+  },
+  {
+    "front": "middernacht",
+    "back": "midnight"
+  },
+  {
+    "front": "twaalf uur 's middags",
+    "back": "noon"
+  },
+  {
+    "front": "vrije tijd",
+    "back": "leisure time"
+  },
+  {
+    "front": "de hobby",
+    "back": "the hobby"
+  },
+  {
+    "front": "reizen",
+    "back": "to travel"
+  },
+  {
+    "front": "de vakantie",
+    "back": "the holiday"
+  },
+  {
+    "front": "kamperen",
+    "back": "to camp out"
+  },
+  {
+    "front": "het strand",
+    "back": "the beach"
+  },
+  {
+    "front": "zonnen",
+    "back": "to sunbathe"
+  },
+  {
+    "front": "het pretpark",
+    "back": "the theme park"
+  },
+  {
+    "front": "tuinieren",
+    "back": "gardening"
+  },
+  {
+    "front": "de taal",
+    "back": "the language"
+  },
+  {
+    "front": "een taal leren",
+    "back": "to learn a language"
+  },
+  {
+    "front": "sporten",
+    "back": "to exercise"
+  },
+  {
+    "front": "hardlopen",
+    "back": "to run"
+  },
+  {
+    "front": "wandelen",
+    "back": "to go for a walk"
+  },
+  {
+    "front": "tennissen",
+    "back": "to play tennis"
+  },
+  {
+    "front": "hockeyen",
+    "back": "to play hockey"
+  },
+  {
+    "front": "borrelen",
+    "back": "to have a drink"
+  },
+  {
+    "front": "uit eten gaan",
+    "back": "to go out for dinner"
+  },
+  {
+    "front": "uitgaan",
+    "back": "to go out"
+  },
+  {
+    "front": "stappen",
+    "back": "to go out (and drink)"
+  },
+  {
+    "front": "dronken zijn",
+    "back": "being drunk"
+  },
+  {
+    "front": "koken",
+    "back": "to cook"
+  },
+  {
+    "front": "kunst",
+    "back": "art"
+  },
+  {
+    "front": "verjaardag",
+    "back": "the birthday"
+  },
+  {
+    "front": "een verjaardag vieren",
+    "back": "to celebrate a birthday"
+  },
+  {
+    "front": "hij is jarig",
+    "back": "it's his birthday"
+  },
+  {
+    "front": "zingen",
+    "back": "to sing"
+  },
+  {
+    "front": "dansen",
+    "back": "to dance"
+  },
+  {
+    "front": "winkelen",
+    "back": "to go shopping"
+  },
+  {
+    "front": "Amsterdam",
+    "back": "Amsterdam"
+  },
+  {
+    "front": "de gracht",
+    "back": "the canal"
+  },
+  {
+    "front": "het grachtenpand",
+    "back": "the canal house"
+  },
+  {
+    "front": "de woonboot",
+    "back": "the house boat"
+  },
+  {
+    "front": "wonen",
+    "back": "to live"
+  },
+  {
+    "front": "het paleis",
+    "back": "the palace"
+  },
+  {
+    "front": "pont",
+    "back": "the ferry"
+  },
+  {
+    "front": "de rondvaart",
+    "back": "the canal cruise"
+  },
+  {
+    "front": "het museum",
+    "back": "the museum"
+  },
+  {
+    "front": "het concert",
+    "back": "the concert"
+  },
+  {
+    "front": "het gebouw",
+    "back": "the building"
+  },
+  {
+    "front": "het concertgebouw",
+    "back": "the Concertgebouw"
+  },
+  {
+    "front": "het plein",
+    "back": "the square"
+  },
+  {
+    "front": "het fietspad",
+    "back": "the bicycle track"
+  },
+  {
+    "front": "de brug",
+    "back": "the bridge"
+  },
+  {
+    "front": "het eiland",
+    "back": "the island"
+  },
+  {
+    "front": "de ring",
+    "back": "the ring, the ring road"
+  },
+  {
+    "front": "de coffeeshop",
+    "back": "bar where soft drugs is sold"
+  },
+  {
+    "front": "het stadion",
+    "back": "the stadium"
+  },
+  {
+    "front": "het hoofdkantoor",
+    "back": "the head office"
+  },
+  {
+    "front": "de wallen",
+    "back": "the red light district"
+  },
+  {
+    "front": "de hoer",
+    "back": "the prostitute"
+  },
+  {
+    "front": "het park",
+    "back": "the park"
+  },
+  {
+    "front": "het bos",
+    "back": "the forest"
+  },
+  {
+    "front": "de woning",
+    "back": "the house"
+  },
+  {
+    "front": "de deur",
+    "back": "the door"
+  },
+  {
+    "front": "het raam",
+    "back": "the window"
+  },
+  {
+    "front": "de stoel",
+    "back": "the chair"
+  },
+  {
+    "front": "de kruk",
+    "back": "the stool"
+  },
+  {
+    "front": "de tafel",
+    "back": "the table"
+  },
+  {
+    "front": "de lamp",
+    "back": "the lamp"
+  },
+  {
+    "front": "de televisie",
+    "back": "the television"
+  },
+  {
+    "front": "de kast",
+    "back": "the closet"
+  },
+  {
+    "front": "de wc",
+    "back": "the toilet"
+  },
+  {
+    "front": "de keuken",
+    "back": "the kitchen"
+  },
+  {
+    "front": "het fornuis",
+    "back": "the cooker"
+  },
+  {
+    "front": "de koelkast",
+    "back": "the fridge"
+  },
+  {
+    "front": "de kamer",
+    "back": "the room"
+  },
+  {
+    "front": "de woonkamer",
+    "back": "the living room"
+  },
+  {
+    "front": "de bank",
+    "back": "the couch"
+  },
+  {
+    "front": "de slaapkamer",
+    "back": "the sleeping room"
+  },
+  {
+    "front": "het bed",
+    "back": "the bed"
+  },
+  {
+    "front": "de badkamer",
+    "back": "the bathroom"
+  },
+  {
+    "front": "de douche",
+    "back": "the shower"
+  },
+  {
+    "front": "het bad",
+    "back": "the bath tub"
+  },
+  {
+    "front": "de bijkeuken",
+    "back": "the scullery"
+  },
+  {
+    "front": "de garage",
+    "back": "the garage"
+  },
+  {
+    "front": "de tuin",
+    "back": "the garden"
+  },
+  {
+    "front": "de zolder",
+    "back": "the attic"
+  },
+  {
+    "front": "het lichaam",
+    "back": "the body"
+  },
+  {
+    "front": "het lijf",
+    "back": "the body"
+  },
+  {
+    "front": "het hoofd",
+    "back": "the head"
+  },
+  {
+    "front": "de kop",
+    "back": "the head"
+  },
+  {
+    "front": "de mond",
+    "back": "the mouth"
+  },
+  {
+    "front": "de tand",
+    "back": "the tooth"
+  },
+  {
+    "front": "het oor",
+    "back": "the ear"
+  },
+  {
+    "front": "het oog",
+    "back": "the eye"
+  }
+]

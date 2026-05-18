@@ -1,0 +1,402 @@
+[
+  {
+    "front": "de stroopwafel",
+    "back": "the syrup waffle"
+  },
+  {
+    "front": "drop",
+    "back": "liquorice"
+  },
+  {
+    "front": "de, het snoep",
+    "back": "the sweets"
+  },
+  {
+    "front": "wie",
+    "back": "who"
+  },
+  {
+    "front": "wat",
+    "back": "what"
+  },
+  {
+    "front": "dat",
+    "back": "that"
+  },
+  {
+    "front": "dit",
+    "back": "this"
+  },
+  {
+    "front": "welke",
+    "back": "which"
+  },
+  {
+    "front": "deze",
+    "back": "these, this"
+  },
+  {
+    "front": "die",
+    "back": "that, those"
+  },
+  {
+    "front": "waar",
+    "back": "where"
+  },
+  {
+    "front": "hier",
+    "back": "here"
+  },
+  {
+    "front": "daar",
+    "back": "there"
+  },
+  {
+    "front": "wanneer",
+    "back": "when"
+  },
+  {
+    "front": "dan",
+    "back": "then"
+  },
+  {
+    "front": "toen",
+    "back": "at that time (past)"
+  },
+  {
+    "front": "terwijl",
+    "back": "while"
+  },
+  {
+    "front": "hoe",
+    "back": "how"
+  },
+  {
+    "front": "zo",
+    "back": "like this"
+  },
+  {
+    "front": "hoeveel",
+    "back": "how much"
+  },
+  {
+    "front": "de bloem",
+    "back": "the flower"
+  },
+  {
+    "front": "waarom",
+    "back": "why"
+  },
+  {
+    "front": "daarom",
+    "back": "that's why"
+  },
+  {
+    "front": "want",
+    "back": "because"
+  },
+  {
+    "front": "omdat",
+    "back": "because"
+  },
+  {
+    "front": "maar",
+    "back": "but"
+  },
+  {
+    "front": "behalve",
+    "back": "except"
+  },
+  {
+    "front": "de fiets",
+    "back": "the bike"
+  },
+  {
+    "front": "de straat",
+    "back": "the street"
+  },
+  {
+    "front": "de weg",
+    "back": "the road"
+  },
+  {
+    "front": "de snelweg",
+    "back": "the highway"
+  },
+  {
+    "front": "de auto",
+    "back": "the car"
+  },
+  {
+    "front": "de bus",
+    "back": "the bus"
+  },
+  {
+    "front": "de trein",
+    "back": "the train"
+  },
+  {
+    "front": "de tram",
+    "back": "the tram"
+  },
+  {
+    "front": "de halte",
+    "back": "the stopping place"
+  },
+  {
+    "front": "de metro",
+    "back": "the metro"
+  },
+  {
+    "front": "de boot",
+    "back": "the boat"
+  },
+  {
+    "front": "het vliegtuig",
+    "back": "the airplane"
+  },
+  {
+    "front": "het vliegveld",
+    "back": "the airport"
+  },
+  {
+    "front": "de haven",
+    "back": "the port"
+  },
+  {
+    "front": "het station",
+    "back": "the railway station"
+  },
+  {
+    "front": "het kantoor",
+    "back": "the office"
+  },
+  {
+    "front": "de winkel",
+    "back": "the shop"
+  },
+  {
+    "front": "de supermarkt",
+    "back": "the supermarket"
+  },
+  {
+    "front": "het ziekenhuis",
+    "back": "the hospital"
+  },
+  {
+    "front": "de apotheek",
+    "back": "the pharmacy"
+  },
+  {
+    "front": "het zwembad",
+    "back": "the swimming pool"
+  },
+  {
+    "front": "de sporthal",
+    "back": "the sports hall"
+  },
+  {
+    "front": "het politiebureau",
+    "back": "the police station"
+  },
+  {
+    "front": "de bibliotheek",
+    "back": "the library"
+  },
+  {
+    "front": "de school",
+    "back": "the school"
+  },
+  {
+    "front": "de universiteit",
+    "back": "the university"
+  },
+  {
+    "front": "nul",
+    "back": "zero"
+  },
+  {
+    "front": "een",
+    "back": "one"
+  },
+  {
+    "front": "twee",
+    "back": "two"
+  },
+  {
+    "front": "drie",
+    "back": "three"
+  },
+  {
+    "front": "vier",
+    "back": "four"
+  },
+  {
+    "front": "vijf",
+    "back": "five"
+  },
+  {
+    "front": "zes",
+    "back": "six"
+  },
+  {
+    "front": "zeven",
+    "back": "seven"
+  },
+  {
+    "front": "acht",
+    "back": "eight"
+  },
+  {
+    "front": "negen",
+    "back": "nine"
+  },
+  {
+    "front": "tien",
+    "back": "ten"
+  },
+  {
+    "front": "elf",
+    "back": "eleven"
+  },
+  {
+    "front": "twaalf",
+    "back": "twelve"
+  },
+  {
+    "front": "dertien",
+    "back": "thirteen"
+  },
+  {
+    "front": "veertien",
+    "back": "fourteen"
+  },
+  {
+    "front": "vijftien",
+    "back": "fifteen"
+  },
+  {
+    "front": "twintig",
+    "back": "twenty"
+  },
+  {
+    "front": "eenentwintig",
+    "back": "twenty one"
+  },
+  {
+    "front": "dertig",
+    "back": "thirty"
+  },
+  {
+    "front": "veertig",
+    "back": "forty"
+  },
+  {
+    "front": "vijftig",
+    "back": "fifty"
+  },
+  {
+    "front": "honderd",
+    "back": "hundred"
+  },
+  {
+    "front": "tweehonderd",
+    "back": "two hundred"
+  },
+  {
+    "front": "duizend",
+    "back": "thousand"
+  },
+  {
+    "front": "miljoen",
+    "back": "million"
+  },
+  {
+    "front": "lopen",
+    "back": "to walk"
+  },
+  {
+    "front": "hebben",
+    "back": "to have"
+  },
+  {
+    "front": "worden",
+    "back": "to become"
+  },
+  {
+    "front": "gaan",
+    "back": "to go"
+  },
+  {
+    "front": "vragen",
+    "back": "to ask"
+  },
+  {
+    "front": "antwoorden",
+    "back": "to answer"
+  },
+  {
+    "front": "kopen",
+    "back": "to buy"
+  },
+  {
+    "front": "krijgen",
+    "back": "to get"
+  },
+  {
+    "front": "eten",
+    "back": "to eat"
+  },
+  {
+    "front": "drinken",
+    "back": "to drink"
+  },
+  {
+    "front": "rijden",
+    "back": "to drive"
+  },
+  {
+    "front": "vergeten",
+    "back": "to forget"
+  },
+  {
+    "front": "horen",
+    "back": "to hear"
+  },
+  {
+    "front": "luisteren",
+    "back": "to listen"
+  },
+  {
+    "front": "zien",
+    "back": "to see"
+  },
+  {
+    "front": "kijken",
+    "back": "to look"
+  },
+  {
+    "front": "weten",
+    "back": "to know"
+  },
+  {
+    "front": "leren",
+    "back": "to learn"
+  },
+  {
+    "front": "slapen",
+    "back": "to sleep"
+  },
+  {
+    "front": "lezen",
+    "back": "to read"
+  },
+  {
+    "front": "schrijven",
+    "back": "to write"
+  },
+  {
+    "front": "spreken",
+    "back": "to speak"
+  }
+]

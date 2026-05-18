@@ -134,7 +134,7 @@ export default function UploadPage() {
   return (
     <div className="flex flex-1 flex-col items-center px-6 max-w-md mx-auto w-full py-10">
       <div className="w-full text-center mb-8">
-        <h1 className="text-3xl font-bold text-zinc-900 mb-2">Flashcards</h1>
+        <h1 className="text-3xl font-bold text-zinc-900 mb-2">Learn Dutch Flashcards</h1>
         <p className="text-zinc-500">Choose a deck or upload your own</p>
       </div>
       <div className="w-full mb-6 bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 flex items-start gap-3">

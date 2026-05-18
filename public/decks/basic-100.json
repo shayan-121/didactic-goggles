@@ -1,0 +1,402 @@
+[
+  {
+    "front": "ik",
+    "back": "I"
+  },
+  {
+    "front": "ik heet",
+    "back": "my name is"
+  },
+  {
+    "front": "ik ben",
+    "back": "I am"
+  },
+  {
+    "front": "een",
+    "back": "a"
+  },
+  {
+    "front": "de",
+    "back": "the"
+  },
+  {
+    "front": "het",
+    "back": "the"
+  },
+  {
+    "front": "de man",
+    "back": "the man"
+  },
+  {
+    "front": "de vrouw",
+    "back": "the woman"
+  },
+  {
+    "front": "de jongen",
+    "back": "the boy"
+  },
+  {
+    "front": "het meisje",
+    "back": "the girl"
+  },
+  {
+    "front": "het huis",
+    "back": "the house"
+  },
+  {
+    "front": "hallo",
+    "back": "hello"
+  },
+  {
+    "front": "hoi",
+    "back": "hi"
+  },
+  {
+    "front": "goed",
+    "back": "good"
+  },
+  {
+    "front": "slecht",
+    "back": "bad"
+  },
+  {
+    "front": "morgen",
+    "back": "morning"
+  },
+  {
+    "front": "morgen",
+    "back": "tomorrow"
+  },
+  {
+    "front": "goedemorgen",
+    "back": "good morning"
+  },
+  {
+    "front": "avond",
+    "back": "evening"
+  },
+  {
+    "front": "goedenavond",
+    "back": "good evening"
+  },
+  {
+    "front": "dag",
+    "back": "day"
+  },
+  {
+    "front": "goedendag",
+    "back": "good day !"
+  },
+  {
+    "front": "tot ziens",
+    "back": "see you"
+  },
+  {
+    "front": "tot",
+    "back": "until"
+  },
+  {
+    "front": "doei",
+    "back": "bye"
+  },
+  {
+    "front": "alsjeblieft",
+    "back": "here you are"
+  },
+  {
+    "front": "alstublieft",
+    "back": "here you are"
+  },
+  {
+    "front": "alsjeblieft",
+    "back": "please"
+  },
+  {
+    "front": "a.u.b.",
+    "back": "please"
+  },
+  {
+    "front": "dank je wel",
+    "back": "thank you"
+  },
+  {
+    "front": "ja",
+    "back": "yes"
+  },
+  {
+    "front": "nee",
+    "back": "no"
+  },
+  {
+    "front": "niet",
+    "back": "not"
+  },
+  {
+    "front": "roken",
+    "back": "to smoke"
+  },
+  {
+    "front": "wel",
+    "back": "(confirmative)"
+  },
+  {
+    "front": "misschien",
+    "back": "maybe"
+  },
+  {
+    "front": "links",
+    "back": "left"
+  },
+  {
+    "front": "rechts",
+    "back": "right"
+  },
+  {
+    "front": "of",
+    "back": "or"
+  },
+  {
+    "front": "en",
+    "back": "and"
+  },
+  {
+    "front": "jij",
+    "back": "you"
+  },
+  {
+    "front": "je",
+    "back": "you"
+  },
+  {
+    "front": "hij",
+    "back": "he"
+  },
+  {
+    "front": "zij",
+    "back": "she"
+  },
+  {
+    "front": "ze",
+    "back": "she"
+  },
+  {
+    "front": "wij",
+    "back": "we"
+  },
+  {
+    "front": "we",
+    "back": "we"
+  },
+  {
+    "front": "jullie",
+    "back": "you"
+  },
+  {
+    "front": "zij",
+    "back": "they"
+  },
+  {
+    "front": "ze",
+    "back": "they"
+  },
+  {
+    "front": "u",
+    "back": "you"
+  },
+  {
+    "front": "zijn",
+    "back": "to be"
+  },
+  {
+    "front": "de leraar",
+    "back": "the teacher"
+  },
+  {
+    "front": "blij",
+    "back": "happy"
+  },
+  {
+    "front": "leuk",
+    "back": "funny"
+  },
+  {
+    "front": "mooi",
+    "back": "pretty"
+  },
+  {
+    "front": "oud",
+    "back": "old"
+  },
+  {
+    "front": "jong",
+    "back": "young"
+  },
+  {
+    "front": "de voetballer",
+    "back": "the football player"
+  },
+  {
+    "front": "de premier",
+    "back": "the prime minister"
+  },
+  {
+    "front": "de student",
+    "back": "the student"
+  },
+  {
+    "front": "de leerling",
+    "back": "the scholar"
+  },
+  {
+    "front": "de baas",
+    "back": "the boss"
+  },
+  {
+    "front": "de bakker",
+    "back": "the baker"
+  },
+  {
+    "front": "de slager",
+    "back": "the butcher"
+  },
+  {
+    "front": "de boer",
+    "back": "the farmer"
+  },
+  {
+    "front": "de visser",
+    "back": "the fisherman"
+  },
+  {
+    "front": "de advocaat",
+    "back": "the lawyer"
+  },
+  {
+    "front": "de dokter",
+    "back": "the doctor"
+  },
+  {
+    "front": "de ober",
+    "back": "the waiter"
+  },
+  {
+    "front": "de politieman",
+    "back": "the police officer"
+  },
+  {
+    "front": "de agent",
+    "back": "the police officer"
+  },
+  {
+    "front": "de kapper",
+    "back": "the hairdresser"
+  },
+  {
+    "front": "de directeur",
+    "back": "the (company) director"
+  },
+  {
+    "front": "de boekhouder",
+    "back": "the accountant"
+  },
+  {
+    "front": "de verkoper",
+    "back": "the salesman"
+  },
+  {
+    "front": "de vertegenwoordiger",
+    "back": "the representative"
+  },
+  {
+    "front": "eten & drinken",
+    "back": "food & drinks"
+  },
+  {
+    "front": "de groente",
+    "back": "the vegetables"
+  },
+  {
+    "front": "het fruit",
+    "back": "the fruits"
+  },
+  {
+    "front": "het brood",
+    "back": "the bread"
+  },
+  {
+    "front": "de boterham",
+    "back": "the slice of bread"
+  },
+  {
+    "front": "de kaas",
+    "back": "the cheese"
+  },
+  {
+    "front": "de hagelslag",
+    "back": "the chocolate sprinkles"
+  },
+  {
+    "front": "de pindakaas",
+    "back": "the peanut butter"
+  },
+  {
+    "front": "de melk",
+    "back": "the milk"
+  },
+  {
+    "front": "de koffie",
+    "back": "the coffee"
+  },
+  {
+    "front": "de thee",
+    "back": "the tea"
+  },
+  {
+    "front": "de aardappel",
+    "back": "the potato"
+  },
+  {
+    "front": "de aardappeleter",
+    "back": "the potato-eater"
+  },
+  {
+    "front": "het bier",
+    "back": "the beer"
+  },
+  {
+    "front": "de wijn",
+    "back": "the wine"
+  },
+  {
+    "front": "het water",
+    "back": "the water"
+  },
+  {
+    "front": "het vlees",
+    "back": "the meat"
+  },
+  {
+    "front": "de kip",
+    "back": "the chicken"
+  },
+  {
+    "front": "de friet",
+    "back": "the French fries"
+  },
+  {
+    "front": "frietje met",
+    "back": "French fries with mayonnaise"
+  },
+  {
+    "front": "de frikadel",
+    "back": "Dutch meat sausage"
+  },
+  {
+    "front": "de kroket",
+    "back": "Dutch fried ragout bar"
+  },
+  {
+    "front": "de pannenkoek",
+    "back": "the pancake"
+  }
+]
